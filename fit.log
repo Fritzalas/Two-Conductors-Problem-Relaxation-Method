@@ -1,0 +1,39 @@
+
+
+*******************************************************************************
+Fri Nov  3 03:37:22 2023
+
+
+FIT:    data read from "CLOL.dat" u 1:2
+        format = x:z
+        x range restricted to [75.0000 : 200.000]
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=C-a*exp(-b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             C            
+   0 5.4535882029e-01   0.00e+00  3.21e-01    1.000000e+00   1.000000e-02   3.300000e-01
+   8 3.2523960692e-09  -4.63e-06  3.21e-03   -1.247460e-02   1.809382e-02   3.301700e-01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 3.2524e-09
+rel. change during last iteration : -4.62539e-11
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.29262e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.08413e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.0124746       +/- 0.0006805    (5.455%)
+b               = 0.0180938        +/- 0.00089      (4.919%)
+C               = 0.33017          +/- 6.364e-05    (0.01927%)
+
+correlation matrix of the fit parameters:
+                a      b      C      
+a               1.000 
+b              -0.969  1.000 
+C              -0.831  0.933  1.000 
